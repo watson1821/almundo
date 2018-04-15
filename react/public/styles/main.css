@@ -1,0 +1,146 @@
+.header {
+    background-color: #003077;
+    min-height: 80px;
+}
+
+.header img {
+    margin: 15px;
+}
+
+.page-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.filterComponent,
+.hotelsContainer {
+    padding: 0;
+}
+
+.filters{
+    margin: 15px 0 15px 15px;
+}
+
+.filters__title{
+    background-color: white;
+    width: 100%;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.filters__by-name,
+.filters__by-star {
+    background-color: white;
+    margin: 5px 0;
+    padding: 15px;
+}
+
+.filters__by-name-search,
+.filters__by-star-search {
+    cursor: pointer;
+}
+
+.filters__by-name-search-img,
+.filters__by-star-search-img {
+    width: 15px;
+    color: #2671dd;
+    margin-right: 5px;
+}
+
+.filters__by-name-label,
+.filters__by-star-label {
+    color: #2671dd;
+    font-weight: bold;
+}
+
+.filters__by-name-arrow,
+.filters__by-star-arrow {
+    float: right;
+    margin-right: 15px;
+    color: #2671dd;
+}
+
+.filters__by-name-actions {
+    margin-top: 15px;
+}
+
+.filters__by-name-input{
+    width: 75%;
+    padding-left: 10px;
+}
+
+.filters__by-name-button{
+    background-color: #003077;
+    color: white;
+    float: right;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filters__by-name-actions {
+    font-weight: bold;
+}
+
+.filters__by-name-actions input {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.filters__by-name-star,
+.filters__by-star-star {
+    color: #FDBA12;
+    margin-right: 2px;
+}
+
+.hotels__row {
+    background-color: white;
+    margin: 15px;
+    padding: 15px 0;
+}
+
+.hotels__row-name {
+    color: #2671dd;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hotels__row-stars {
+    margin: 5px 0 10px 0;
+}
+
+.hotels__row-amenities img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.hotels__row-price-container {
+    padding-top: 50px;
+    color: #444;
+    text-align: center;
+}
+
+.hotels__row-price-label{
+    padding: 0 5px;
+}
+
+.hotels__row-price {
+    color: #DF6800;
+    font-size: 30px;
+}
+
+.hotels__row-price-number {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.hotels__row-price-action {
+    background-color: #003077;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API Rest NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"No tests\" && exit 1"
+  },
+  "author": "Wilson Serrano",
+  "license": "N/A",
+  "dependencies": {
+    "express": "^4.16.3",
+    "json-parser": "^1.1.5",
+    "json-query": "^2.2.2"
+  }
+}
